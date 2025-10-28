@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0ACC7B72EB09E13006A6B09 /* HydrifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC7B62EB09E13006A6B09 /* HydrifyApp.swift */; };
+		F0ACC7B92EB09E13006A6B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC7B82EB09E13006A6B09 /* ContentView.swift */; };
+		F0ACC7BB2EB09E15006A6B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC7BA2EB09E15006A6B09 /* Assets.xcassets */; };
+		F0ACC7BE2EB09E17006A6B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0ACC7BD2EB09E17006A6B09 /* Preview Assets.xcassets */; };
+		F0ACC7C82EB09E17006A6B09 /* HydrifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC7C72EB09E17006A6B09 /* HydrifyTests.swift */; };
+		F0ACC7D22EB09E17006A6B09 /* HydrifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC7D12EB09E17006A6B09 /* HydrifyUITests.swift */; };
+		F0ACC7D42EB09E17006A6B09 /* HydrifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACC7D32EB09E17006A6B09 /* HydrifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0ACC7C42EB09E17006A6B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0ACC7AB2EB09E13006A6B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0ACC7B22EB09E13006A6B09;
+			remoteInfo = Hydrify;
+		};
+		F0ACC7CE2EB09E17006A6B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0ACC7AB2EB09E13006A6B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0ACC7B22EB09E13006A6B09;
+			remoteInfo = Hydrify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0ACC7B32EB09E13006A6B09 /* Hydrify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0ACC7B62EB09E13006A6B09 /* HydrifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrifyApp.swift; sourceTree = "<group>"; };
+		F0ACC7B82EB09E13006A6B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0ACC7BA2EB09E15006A6B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0ACC7BD2EB09E17006A6B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0ACC7C32EB09E17006A6B09 /* HydrifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0ACC7C72EB09E17006A6B09 /* HydrifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrifyTests.swift; sourceTree = "<group>"; };
+		F0ACC7CD2EB09E17006A6B09 /* HydrifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0ACC7D12EB09E17006A6B09 /* HydrifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrifyUITests.swift; sourceTree = "<group>"; };
+		F0ACC7D32EB09E17006A6B09 /* HydrifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0ACC7B02EB09E13006A6B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7C02EB09E17006A6B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7CA2EB09E17006A6B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0ACC7AA2EB09E13006A6B09 = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7B52EB09E13006A6B09 /* Hydrify */,
+				F0ACC7C62EB09E17006A6B09 /* HydrifyTests */,
+				F0ACC7D02EB09E17006A6B09 /* HydrifyUITests */,
+				F0ACC7B42EB09E13006A6B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0ACC7B42EB09E13006A6B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7B32EB09E13006A6B09 /* Hydrify.app */,
+				F0ACC7C32EB09E17006A6B09 /* HydrifyTests.xctest */,
+				F0ACC7CD2EB09E17006A6B09 /* HydrifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0ACC7B52EB09E13006A6B09 /* Hydrify */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7B62EB09E13006A6B09 /* HydrifyApp.swift */,
+				F0ACC7B82EB09E13006A6B09 /* ContentView.swift */,
+				F0ACC7BA2EB09E15006A6B09 /* Assets.xcassets */,
+				F0ACC7BC2EB09E17006A6B09 /* Preview Content */,
+			);
+			path = Hydrify;
+			sourceTree = "<group>";
+		};
+		F0ACC7BC2EB09E17006A6B09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7BD2EB09E17006A6B09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0ACC7C62EB09E17006A6B09 /* HydrifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7C72EB09E17006A6B09 /* HydrifyTests.swift */,
+			);
+			path = HydrifyTests;
+			sourceTree = "<group>";
+		};
+		F0ACC7D02EB09E17006A6B09 /* HydrifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0ACC7D12EB09E17006A6B09 /* HydrifyUITests.swift */,
+				F0ACC7D32EB09E17006A6B09 /* HydrifyUITestsLaunchTests.swift */,
+			);
+			path = HydrifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0ACC7B22EB09E13006A6B09 /* Hydrify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ACC7D72EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "Hydrify" */;
+			buildPhases = (
+				F0ACC7AF2EB09E13006A6B09 /* Sources */,
+				F0ACC7B02EB09E13006A6B09 /* Frameworks */,
+				F0ACC7B12EB09E13006A6B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hydrify;
+			productName = Hydrify;
+			productReference = F0ACC7B32EB09E13006A6B09 /* Hydrify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0ACC7C22EB09E17006A6B09 /* HydrifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ACC7DA2EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "HydrifyTests" */;
+			buildPhases = (
+				F0ACC7BF2EB09E17006A6B09 /* Sources */,
+				F0ACC7C02EB09E17006A6B09 /* Frameworks */,
+				F0ACC7C12EB09E17006A6B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0ACC7C52EB09E17006A6B09 /* PBXTargetDependency */,
+			);
+			name = HydrifyTests;
+			productName = HydrifyTests;
+			productReference = F0ACC7C32EB09E17006A6B09 /* HydrifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0ACC7CC2EB09E17006A6B09 /* HydrifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ACC7DD2EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "HydrifyUITests" */;
+			buildPhases = (
+				F0ACC7C92EB09E17006A6B09 /* Sources */,
+				F0ACC7CA2EB09E17006A6B09 /* Frameworks */,
+				F0ACC7CB2EB09E17006A6B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0ACC7CF2EB09E17006A6B09 /* PBXTargetDependency */,
+			);
+			name = HydrifyUITests;
+			productName = HydrifyUITests;
+			productReference = F0ACC7CD2EB09E17006A6B09 /* HydrifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0ACC7AB2EB09E13006A6B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F0ACC7B22EB09E13006A6B09 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F0ACC7C22EB09E17006A6B09 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F0ACC7B22EB09E13006A6B09;
+					};
+					F0ACC7CC2EB09E17006A6B09 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F0ACC7B22EB09E13006A6B09;
+					};
+				};
+			};
+			buildConfigurationList = F0ACC7AE2EB09E13006A6B09 /* Build configuration list for PBXProject "Hydrify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0ACC7AA2EB09E13006A6B09;
+			productRefGroup = F0ACC7B42EB09E13006A6B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0ACC7B22EB09E13006A6B09 /* Hydrify */,
+				F0ACC7C22EB09E17006A6B09 /* HydrifyTests */,
+				F0ACC7CC2EB09E17006A6B09 /* HydrifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0ACC7B12EB09E13006A6B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC7BE2EB09E17006A6B09 /* Preview Assets.xcassets in Resources */,
+				F0ACC7BB2EB09E15006A6B09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7C12EB09E17006A6B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7CB2EB09E17006A6B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0ACC7AF2EB09E13006A6B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC7B92EB09E13006A6B09 /* ContentView.swift in Sources */,
+				F0ACC7B72EB09E13006A6B09 /* HydrifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7BF2EB09E17006A6B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC7C82EB09E17006A6B09 /* HydrifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0ACC7C92EB09E17006A6B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ACC7D42EB09E17006A6B09 /* HydrifyUITestsLaunchTests.swift in Sources */,
+				F0ACC7D22EB09E17006A6B09 /* HydrifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0ACC7C52EB09E17006A6B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0ACC7B22EB09E13006A6B09 /* Hydrify */;
+			targetProxy = F0ACC7C42EB09E17006A6B09 /* PBXContainerItemProxy */;
+		};
+		F0ACC7CF2EB09E17006A6B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0ACC7B22EB09E13006A6B09 /* Hydrify */;
+			targetProxy = F0ACC7CE2EB09E17006A6B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0ACC7D52EB09E17006A6B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0ACC7D62EB09E17006A6B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0ACC7D82EB09E17006A6B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrify/Preview Content\"";
+				DEVELOPMENT_TEAM = XL68VRB757;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.Hydrify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0ACC7D92EB09E17006A6B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrify/Preview Content\"";
+				DEVELOPMENT_TEAM = XL68VRB757;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.Hydrify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0ACC7DB2EB09E17006A6B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL68VRB757;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.HydrifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrify";
+			};
+			name = Debug;
+		};
+		F0ACC7DC2EB09E17006A6B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL68VRB757;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.HydrifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrify";
+			};
+			name = Release;
+		};
+		F0ACC7DE2EB09E17006A6B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL68VRB757;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.HydrifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydrify;
+			};
+			name = Debug;
+		};
+		F0ACC7DF2EB09E17006A6B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL68VRB757;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cocononut.HydrifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydrify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0ACC7AE2EB09E13006A6B09 /* Build configuration list for PBXProject "Hydrify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC7D52EB09E17006A6B09 /* Debug */,
+				F0ACC7D62EB09E17006A6B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ACC7D72EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "Hydrify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC7D82EB09E17006A6B09 /* Debug */,
+				F0ACC7D92EB09E17006A6B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ACC7DA2EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "HydrifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC7DB2EB09E17006A6B09 /* Debug */,
+				F0ACC7DC2EB09E17006A6B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ACC7DD2EB09E17006A6B09 /* Build configuration list for PBXNativeTarget "HydrifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0ACC7DE2EB09E17006A6B09 /* Debug */,
+				F0ACC7DF2EB09E17006A6B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0ACC7AB2EB09E13006A6B09 /* Project object */;
+}
